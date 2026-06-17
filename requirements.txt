@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pwdlib
+pyjwt
+python-multipart
+python-dotenv
+psycopg2-binary
+pwdlib[argon2]
+asyncpg
+python-jose
+email-validator
