@@ -14,7 +14,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     
-    allow_origins=[https://todo-app-frontend-6424.onrender.com], 
+    allow_origins=["https://todo-app-frontend-6424.onrender.com"], 
     allow_credentials=True,
     allow_methods=["*"],  # GET, POST, PUT, DELETE etc.
     allow_headers=["*"],  # sab headers allow
